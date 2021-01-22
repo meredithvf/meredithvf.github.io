@@ -18,23 +18,23 @@ import emoji from "react-easy-emoji";
 ==========================*/
 
 const app = {
-  title: "AbdulQadir Portfolio",
+  title: "Meredith Von Feldt Portfolio",
   // Note : consider leaving null if you dont have any head icon
-  icon: "ayin_qoph.png",
-  description: "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
+  icon: null,
+  description: "A computer science student with a passion for all things outdoors.",
 };
 
 /*=====================
-    2. Social Networks 
+    2. Social Networks
     Desc: your social network links
 ==========================*/
 
 const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
-  github: "https://github.com/AQadir64",
-  linkden: null,
-  facebook: "https://www.facebook.com/profile.php?id=100006896625330",
-  instagram: "https://www.instagram.com/_ayin_qoph/",
+  github: "https://github.com/meredithvf",
+  linkden: "https://www.linkedin.com/in/meredith-von-feldt/",
+  facebook: null,
+  instagram: null,
   twitter: null,
 };
 
@@ -44,12 +44,12 @@ const socialNetworks = {
 ==========================*/
 
 const bannerSection = {
-  username: "Abdul Qadir",
-  bannerHeading: "Marhabaan.",
+  username: "Meredith Von Feldt",
+  bannerHeading: "Hey There,",
   bannerTagLine: emoji(
-    "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer 😀 Who loves to play with different stacks and love to give breath to Ui/Ux designs."
+    "I'm a computer science student with a love for ui/ux, development, and all things outdoors."
   ),
-  //Note:Simply add you avatar image in src/assets/imgs folder 
+  //Note:Simply add you avatar image in src/assets/imgs folder
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
   bannerAvatar: "avatar.jpeg",
@@ -59,34 +59,34 @@ const bannerSection = {
 
 /*=====================
     4. About Section
-    Desc: It's all about you!. this section is designed using the command 
-    line concept so it asked you to add the admin of the command line 
+    Desc: It's all about you!. this section is designed using the command
+    line concept so it asked you to add the admin of the command line
     and 2 basic commands (i recommend you to use default commands).
 ==========================*/
 
 const aboutSection = {
-  admin: "ayin_qoph@ayin_qoph",
+  admin: "Meredith",
   firstCommand: " sudo run about.exe",
   secondCommand: " executing about.exe",
   about:
-    "Computer Science Student and Full Stack Developer. Passionate about solving problems that will benefit others in the area of IT or in real life. from haven't think about computer science and then picking it as a carrier back in 2017 I have discovered a lot in this system. But outside it, I'm just an ordinary karachitte man who loves to do mobile photography and write thoughts.",
+    "I love computer science. I research human computer interaction in the outdoors and work as a UX teaching assistant. I love helping people. I am the VP of the Women in Computer Science club and work on improving students' mental health as part of my position in BYU's advisory council.",
 };
 
 /*=====================
     5. Skils Section
-    Desc: This section hep you set your skills 
+    Desc: This section hep you set your skills
 ==========================*/
 
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
   skillsTagLines: [
-    "Excitable towards giving breath to different mockup PSDs and web designs using Html / Css and Scss.",
-    "Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
-    "Also Passionate towards other stuff like WordPress development, python scripting, and Dev-Ops.",
+    "Passionate about UI/UX and creating exciting interfaces and apps using Figma, Android Studio, CSS...",
+    "Love pushing myself to solve problems in python.",
+    "Always learning new skills and languages. Most recently, Flutter",
   ],
 
   // Recommended : don't add more than 12 skills.
-  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show 
+  // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show
   //        > copy its class > paste it as {fontAwesomeClassname: "fab fa-html5"} in SkillsSet
 
   skillsSet: [
@@ -97,7 +97,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      fontAwesomeClassname: "fab fa-sass",
+      fontAwesomeClassname: "fab fa-java",
     },
     {
       fontAwesomeClassname: "fab fa-js",
@@ -106,13 +106,13 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      fontAwesomeClassname: "fab fa-node",
+      fontAwesomeClassname: "fab fa-figma",
     },
     {
       fontAwesomeClassname: "fab fa-npm",
     },
     {
-      fontAwesomeClassname: "fas fa-fire",
+      fontAwesomeClassname: "fas fa-aws",
     },
     {
       fontAwesomeClassname: "fab fa-wordpress",
@@ -124,21 +124,21 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-linux",
     },
     {
-      fontAwesomeClassname: "fab fa-docker",
+      fontAwesomeClassname: "fab fa-android",
     },
   ],
 };
 
 /*=====================
     6. Open Source Section
-    Desc: This section hlep you configure your github repos section 
+    Desc: This section hlep you configure your github repos section
 ==========================*/
 const openSourceSection = {
-  
+
   //Note :  don't edit the githubToken
   githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
-  githubUserName: "AQadir64",
+  githubUserName: "meredithvf",
   //Note :  no of open source projects you want to show.
   numberOfRepos: 6,
 };
@@ -151,37 +151,37 @@ const openSourceSection = {
 const projectsSection = {
   projects: [
     {
-      projectName: "BubuSoft",
+      projectName: "College Housing App",
       projectBio:
-        "DREAM BIG, ACT NOW ––– is the new motto. BabuSoft a bird’s eye view of the tech industry for all the novel ideas that you can turn into reality",
+        "Current project aimed to solve the inneficiences in the Provo, Utah housing market",
 
-      projectUrl: "https://babusoft.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "Device Detect"],
+      projectUrl: null,
+      stackList: ["Flutter", "React", "Javascript"],
     },
     {
-      projectName: "E-Trans Pakistan",
+      projectName: "Twitter Clone",
       projectBio:
-        "E-Trans Pakistan emerge as first in its class within the city of Karachi in Sindh, offering chauffeur-driven services.",
+        "Mock twitter app. It connected to AWS backend in order to store and retrieve user information, post tweets, and update user stories and feed for a large scale number of users (10,000+) with low perceived latency (< 2 seconds).",
 
-      projectUrl: "https://etranspakistan.com/",
-      stackList: ["Wordpress", "plugins", "css"],
+      projectUrl: null,
+      stackList: ["AWS", "Java", "AndroidStudio", "Lucid"],
     },
     {
-      projectName: "Covid-19 Tracker",
+      projectName: "Family Map App",
       projectBio:
-        "Covid-19 is an real-time web application which give real-time update about the corono-virus cases in the world build on ReactJs",
+        "App that lets a user view and interact with their family history through plotting geographical origins with attached information through the Google Maps API",
 
-      projectUrl: "https://orthocovid-19.netlify.app/",
-      stackList: ["React", "Ant Design", "Sass", "AmCharts", "GeoData"],
+      projectUrl: null,
+      stackList: ["MySQL", "Java", "AndroidStudio"],
     },
 
     {
-      projectName: "Cheating Detector",
+      projectName: "Photography Website",
       projectBio:
-        "Cheating Detector Desktop app checks the similarity b/w different PDFs,documents ,images and text",
+        "Simple website for photographer",
 
-      projectUrl: "/",
-      stackList: ["Electron", "Python", "Open Cv", "OCR", "Flask"],
+      projectUrl: "https://clarasevernphotography.com/",
+      stackList: ["WordPress", "CSS", "HTML"],
     },
   ],
 };
@@ -194,27 +194,34 @@ const projectsSection = {
 const experienceSection = {
   experiences: [
     {
-      experienceTitle: "React Boot Camper",
+      experienceTitle: "Learned to Program",
       experienceDesc:
-        "Successfully learned to React from 0%. Developed and Implement different React projects in the group. Improved communication skills while interacting with people of a different caliber.",
+        "Spontaneously took my first cs class, AP Computer Science. Didn't know what coding was when I signed up.",
       // Recommended : don't add full date.
-      experienceDuration: "12/18-05/19",
+      experienceDuration: "9/16-05/17",
       // Recommended : don't add more than 3 tags.
-      experienceTags: ["Panacloud", "5 months", "karachi"],
+      experienceTags: ["Java", "OOP", "High School"],
     },
     {
-      experienceTitle: "Wordpress Intern",
+      experienceTitle: "Started the at BYU in the CS program",
       experienceDesc:
-        "Improved remotely managing skills by giving 20+ hours per week. Expanded knowledge of creating static and responsive sites using WordPress.",
+        "Challenged myself more than I thought possible. Learned C++ and data structures my first year.",
       experienceDuration: "10/19-11/19",
-      experienceTags: ["Interns Pk", "1.5 month", "Remote"],
+      experienceTags: ["C++", "Freshman", "Data Structures"],
     },
     {
-      experienceTitle: "Competition Manager",
+      experienceTitle: "Church Mission",
       experienceDesc:
-        "Manages the competition team and Ensures everyone is satisfied. Design and develop innovative competition for ITEC and reexamines it.",
+        "Took time off of school to learn Spanish in order to serve and help others.",
+      experienceDuration: "8/2018-12/2018",
+      experienceTags: ["Service", "Spirituality"],
+    },
+    {
+      experienceTitle: "CS Research Assistant",
+      experienceDesc:
+        "Researched/Developed techonology in the outdoors, training athletes through machine learning, and machine labeling. Awarded 2nd place in section at BYU Student Research Conference.",
       experienceDuration: "Current",
-      experienceTags: ["ACM", "12/2018-5/2019", "NEDUET"],
+      experienceTags: ["HCI", "Machine Learning", "Outdoors"],
     },
   ],
 };
@@ -226,9 +233,9 @@ const experienceSection = {
 
 const contactSection = {
   contactTagline:
-    "Hey Folks, Love to see you sliding here, Y'all can reach me.",
+    "Hey Folks. I'd love to be in contact with you, just pop me a message.",
   // Note : add your all contacts in the contactList seperating with *,* .
-  contactList: ["03461826315", "a.qadir67@outlook.com"],
+  contactList: ["meredithvf@byu.edu"],
 };
 
 
