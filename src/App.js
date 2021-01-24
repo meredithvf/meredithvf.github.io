@@ -3,7 +3,6 @@ import "./app.css";
 import { Row, Col } from "react-flexbox-grid";
 import About from "./Components/About/About";
 import Skills from "./Components/Skill/Skills";
-import Github from "./Components/Github/Github";
 import Header from "./Components/Layout/Header";
 import Banner from "./Components/Layout/Banner/Banner";
 import Experience from "./Components/Experience/Experience";
@@ -28,7 +27,6 @@ function App() {
             <Banner />
             <About />
             <Skills />
-            <Github />
             <Projects />
             <Experience />
             <Contact />

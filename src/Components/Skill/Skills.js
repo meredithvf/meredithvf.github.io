@@ -3,6 +3,7 @@ import { Col, Row } from "react-flexbox-grid";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import "./skills.css";
+import blob from "../../assets/imgs/blob.svg"
 import VisibilitySensor from "react-visibility-sensor";
 import skillsIllustration from "../../assets/imgs/focused_working.svg";
 import { skillsSection } from "../../techfolio";
@@ -24,9 +25,9 @@ function Skills() {
       <h3 className="skills_section_skill" key={i}>
         <img
           draggable="false"
-          className="emoji"
+          className="emoji" /* May want to change/create class to get space right*/
           alt="💠"
-          src="https://twemoji.maxcdn.com/v/13.0.0/72x72/26a1.png"
+          src={blob}
         ></img>
         {tagline}
       </h3>
@@ -50,7 +51,7 @@ function Skills() {
               <Col xs={12} lg={6}>
                 <Flip left>
                   {" "}
-                  <img src={skillsIllustration} alt="skills" />{" "}
+                  <img src={skillsIllustration} alt="skills" width="500"/>{" "}
                 </Flip>
               </Col>
               <Col xs={12} lg={6}>

@@ -1,7 +1,7 @@
 
 
 /*=====================
-  
+
   Experience Section Css
 
 ==========================*/
@@ -177,10 +177,10 @@
   max-width: 375px;
   box-shadow: 7px 5px 30px 0 rgba(72, 73, 121, 0.15);
   border-radius: 4px;
-  background: #242629;
+  background: #faf6eb;
   overflow: hidden;
   transition: 0.4s;
-  color: #94a1b2;
+  color: #47443D;
 }
 
 .experience_time_line_vertical .time_line-content:before {
@@ -201,7 +201,7 @@
 }
 
 .experience_time_line_vertical .time_line-title {
-  color: #ffffff;
+  color: #23221E;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -215,7 +215,7 @@
 
 .experience_time_line_vertical .time_line-item:hover .time_line-content {
   transform: translateX(5px);
-  box-shadow: #7f5af0 0px 10px 10px -10px;
+  box-shadow: #EAC772 0px 10px 10px -10px;
 }
 
 .experience_time_line_vertical .time_line-item:hover .time_line-date {
@@ -271,11 +271,11 @@
 }
 
 #time_line_5cf90ca818f641 .time_line-date {
-  color: #feab32;
+  color: #335c67; /* Blue color */
 }
 
 #time_line_5cf90ca818f641 .time_line-content:before {
-  background: #feab32;
+  background: #335c67;
 }
 
 @media all and (min-width: 1400px) {

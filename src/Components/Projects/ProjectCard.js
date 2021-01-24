@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { ScrollContext } from "../../Context/scroll";
-import projectImg from "../../assets/imgs/dummy-project.png";
+import projectImg from "../../assets/imgs/dummy-project.svg";
 function ProjectCard({ project }) {
   const { scrollChange } = useContext(ScrollContext);
   return (

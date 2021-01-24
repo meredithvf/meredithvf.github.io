@@ -45,7 +45,7 @@ const socialNetworks = {
 
 const bannerSection = {
   username: "Meredith Von Feldt",
-  bannerHeading: "Hey There,",
+  bannerHeading: "hey there,",
   bannerTagLine: emoji(
     "I'm a computer science student with a love for ui/ux, development, and all things outdoors."
   ),
@@ -54,7 +54,7 @@ const bannerSection = {
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
   bannerAvatar: "avatar.jpeg",
   resumeLink:
-    "https://drive.google.com/file/d/1C9wylYtAU9NbZaBwmQ6uGmNWmWS8_I6F/view?usp=sharing",
+    "https://docs.google.com/document/d/103J57hH5ZMkuOVKb6Ks5F2JIuyevwGO7LUs6XU43Cf0/preview",
 };
 
 /*=====================
@@ -112,7 +112,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-npm",
     },
     {
-      fontAwesomeClassname: "fas fa-aws",
+      fontAwesomeClassname: "fab fa-aws",
     },
     {
       fontAwesomeClassname: "fab fa-wordpress",
@@ -127,20 +127,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-android",
     },
   ],
-};
-
-/*=====================
-    6. Open Source Section
-    Desc: This section hlep you configure your github repos section
-==========================*/
-const openSourceSection = {
-
-  //Note :  don't edit the githubToken
-  githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
-
-  githubUserName: "meredithvf",
-  //Note :  no of open source projects you want to show.
-  numberOfRepos: 6,
 };
 
 /*=====================
@@ -203,7 +189,7 @@ const experienceSection = {
       experienceTags: ["Java", "OOP", "High School"],
     },
     {
-      experienceTitle: "Started the at BYU in the CS program",
+      experienceTitle: "Started the BYU CS program",
       experienceDesc:
         "Challenged myself more than I thought possible. Learned C++ and data structures my first year.",
       experienceDuration: "10/19-11/19",
@@ -223,6 +209,13 @@ const experienceSection = {
       experienceDuration: "Current",
       experienceTags: ["HCI", "Machine Learning", "Outdoors"],
     },
+    {
+      experienceTitle: "UX Teaching Assistant",
+      experienceDesc:
+        "Mentored and graded students on UX projects and tools including problem statements, user testing, site remodeling, and app creation.",
+      experienceDuration: "Current",
+      experienceTags: ["UX", "Teaching", "App Design"],
+    },
   ],
 };
 
@@ -233,7 +226,7 @@ const experienceSection = {
 
 const contactSection = {
   contactTagline:
-    "Hey Folks. I'd love to be in contact with you, just pop me a message.",
+    "Hey folks. I'd love to be in contact with you.",
   // Note : add your all contacts in the contactList seperating with *,* .
   contactList: ["meredithvf@byu.edu"],
 };
@@ -247,7 +240,6 @@ export {
   bannerSection,
   aboutSection,
   skillsSection,
-  openSourceSection,
   projectsSection,
   experienceSection,
   contactSection,

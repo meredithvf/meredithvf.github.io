@@ -1,14 +1,14 @@
 
 
 /*=====================
-  
+
   Skills Section Css
 
 ==========================*/
 
 
 .skills_section_skill {
-  color: #94a1b2;
+  color: #47443D;
   letter-spacing: -0.4px;
   line-height: 22px;
   font-size: 18px;
@@ -21,11 +21,11 @@
 
 .skill_img {
   font-size: 48px;
-  color: #72757e;
+  color: #23221E;
 }
 
 .skill_img:hover {
-  color: #7f5af0;
+  color: #EAC772;
 }
 
 @media all and (max-width: 450px) {
@@ -41,10 +41,10 @@
   }
   .skill_img {
     font-size: 30px;
-    color: #72757e;
+    color: #23221E;
   }
   .skill_img:hover {
-    color: #7f5af0;
+    color: #EAC772;
   }
 }
 
@@ -64,6 +64,6 @@
   }
   .skill_img {
     font-size: 60px;
-    color: #72757e;
+    color: #23221E;
   }
 }

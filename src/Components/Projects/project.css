@@ -1,7 +1,7 @@
 
 
 /*=====================
-  
+
   Project Section Css
 
 ==========================*/
@@ -23,32 +23,14 @@
 
 .content-wrapper {
   display: flex;
-  border-bottom: 1px solid #ebedef;
+  border-bottom: 1px solid #47443D;
   position: relative;
   margin-bottom: 10px;
-}
-.content-wrapper:before {
-  content: "";
-  position: absolute;
-  background-color: #8f98a9;
-  background-color: #aaaebc;
-  box-shadow: 0 -6px 0 0 #aaaebc, 0 6px 0 0 #aaaebc;
-  width: 4px;
-  height: 4px;
-  border: 0;
-  padding: 0;
-  right: 12px;
-  top: 17px;
-  border-radius: 50%;
-  margin-left: auto;
-}
-.content-wrapper:hover {
-  box-shadow: #7f5af0 0px 10px 10px -10px;
 }
 
 .project-card {
   margin-top: 20px;
-  background-color: #242629;
+  background-color: #faf6eb;
   min-height: 220px;
   box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
@@ -57,26 +39,23 @@
   cursor: pointer;
   padding: 0 0 20px 20px;
 }
-.project-card:hover {
-  box-shadow: #7f5af0 0px 10px 10px -10px;
-}
 
 .project-card-img {
-  width: 160px;
+  width: 200px;
   margin-top: -35px;
   border-radius: 2px;
-  object-fit: cover;
+  object-fit: contain;
   margin-bottom: 20px;
   transition: 0.3s ease;
 }
 .project-card-img:hover {
   transform: scale(1.04);
-  box-shadow: 0px 1px 7px 2px #7f5af0;
-  border-bottom: 1px solid #7f5af0;
+  box-shadow: 0px 1px 7px 2px #EAC772;
+  border-bottom: 1px solid #EAC772;
 }
 
 .card-content {
-  color: #fffffe;
+  color: #23221E;
   padding: 30px;
   overflow: hidden;
   position: relative;
@@ -90,7 +69,7 @@
   font-weight: bold;
 }
 .card-content .card-bio {
-  color: #94a1b2;
+  color: #47443D;
   font-size: 16px;
   line-height: 1.2em;
   margin-top: 15px;
@@ -109,12 +88,12 @@
   text-transform: lowercase;
 }
 .languages-profile .languages-name span {
-  color: #fffffe;
+  color: #47443D;
   font-size: 14px;
   font-weight: 700;
-  background-color: #7f5af0;
+  background-color: #EAC772;
   padding: 5px 10px;
-  border: 1px solid #7f5af0;
+  border: 1px solid #EAC772;
   border-radius: 2px;
   margin-left: 0.6rem;
 }

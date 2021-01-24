@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b9f9d22.chunk.css",
+    "main.js": "/static/js/main.1ced4b0a.chunk.js",
+    "main.js.map": "/static/js/main.1ced4b0a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7543041.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7543041.js.map",
+    "static/css/2.ffdfee16.chunk.css": "/static/css/2.ffdfee16.chunk.css",
+    "static/js/2.85645815.chunk.js": "/static/js/2.85645815.chunk.js",
+    "static/js/2.85645815.chunk.js.map": "/static/js/2.85645815.chunk.js.map",
+    "static/css/3.4abcbc46.chunk.css": "/static/css/3.4abcbc46.chunk.css",
+    "static/js/3.4728c685.chunk.js": "/static/js/3.4728c685.chunk.js",
+    "static/js/3.4728c685.chunk.js.map": "/static/js/3.4728c685.chunk.js.map",
+    "static/js/4.66d96538.chunk.js": "/static/js/4.66d96538.chunk.js",
+    "static/js/4.66d96538.chunk.js.map": "/static/js/4.66d96538.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5d718dfa3b2bd006fd1e33da78ec63ab.js": "/precache-manifest.5d718dfa3b2bd006fd1e33da78ec63ab.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ffdfee16.chunk.css.map": "/static/css/2.ffdfee16.chunk.css.map",
+    "static/css/3.4abcbc46.chunk.css.map": "/static/css/3.4abcbc46.chunk.css.map",
+    "static/css/main.5b9f9d22.chunk.css.map": "/static/css/main.5b9f9d22.chunk.css.map",
+    "static/js/2.85645815.chunk.js.LICENSE.txt": "/static/js/2.85645815.chunk.js.LICENSE.txt",
+    "static/js/4.66d96538.chunk.js.LICENSE.txt": "/static/js/4.66d96538.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpeg": "/static/media/avatar.6e222a42.jpeg",
+    "static/media/avatar_1.jpeg": "/static/media/avatar_1.ce0e9d0c.jpeg",
+    "static/media/ayin_qoph.png": "/static/media/ayin_qoph.f971dd94.png",
+    "static/media/blob.svg": "/static/media/blob.e0d353b6.svg",
+    "static/media/contact.svg": "/static/media/contact.435f6777.svg",
+    "static/media/defaultAvatar.svg": "/static/media/defaultAvatar.075fe2c0.svg",
+    "static/media/dummy-project.svg": "/static/media/dummy-project.95b404e3.svg",
+    "static/media/focused_working.svg": "/static/media/focused_working.3bdf5a02.svg",
+    "static/media/icon.png": "/static/media/icon.4542cf4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7543041.js",
+    "static/js/4.66d96538.chunk.js",
+    "static/css/main.5b9f9d22.chunk.css",
+    "static/js/main.1ced4b0a.chunk.js"
+  ]
+}

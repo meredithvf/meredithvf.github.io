@@ -1,6 +1,6 @@
 
 /*=====================
-  
+
   Contact Section Css
 
 ==========================*/
@@ -22,20 +22,21 @@
 }
 
 .contact_section_tagline {
+  color: #47443D;
   margin-bottom: 45px;
   font-size: 22px;
   text-transform: capitalize;
 }
 
 .contact_section_contact {
-  color: #fffffe;
+  color: #47443D;
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 22px;
 }
 
 .contact_section_contact:hover {
-  color: #7f5af0;
+  color: #EAC772;
 }
 
 .social-networks {
@@ -59,7 +60,7 @@
 }
 .social-networks .ham:hover,
 .social-networks .ham:focus {
-  box-shadow: 0 2px 15px #7f5af0 !important;
+  box-shadow: 0 2px 15px #335c67 !important;
 }
 .social-networks .hamBurger {
   font-size: 26px;
@@ -87,7 +88,7 @@
   margin-top: -50%;
   margin-left: -50%;
   border-radius: 100px;
-  background-color: #1f2027;
+  background-color: #23221E;
   transition: all 400ms;
 }
 .social-networks .social-network-link:after {
@@ -117,42 +118,21 @@
 }
 .social-networks .icon-linkedin:hover:before,
 .social-networks .icon-linkedin:focus:before {
-  box-shadow: 0 2px 15px #7f5af0 !important;
-}
-.social-networks .icon-facebook:after {
-  content: "";
-}
-.social-networks .icon-facebook:hover:before,
-.social-networks .icon-facebook:focus:before {
-  box-shadow: 0 2px 15px #7f5af0 !important;
-}
-.social-networks .icon-twitter:after {
-  content: "";
-}
-.social-networks .icon-twitter:hover:before,
-.social-networks .icon-twitter:focus:before {
-  box-shadow: 0 2px 15px #7f5af0 !important;
+  box-shadow: 0 2px 15px #335c67 !important;
 }
 .social-networks .icon-github:after {
   content: "";
 }
 .social-networks .icon-github:hover:before,
 .social-networks .icon-github:focus:before {
-  box-shadow: 0 2px 15px #7f5af0 !important;
-}
-.social-networks .icon-instagram:after {
-  content: "";
-}
-.social-networks .icon-instagram:hover:before,
-.social-networks .icon-instagram:focus:before {
-  box-shadow: 0 2px 15px #7f5af0 !important;
+  box-shadow: 0 2px 15px #335c67 !important;
 }
 .social-networks .icon-menu:after {
   content: "";
 }
 .social-networks .icon-menu:hover:before,
 .social-networks .icon-menu:focus:before {
-  box-shadow: 0 2px 15px #7f5af0 !important;
+  box-shadow: 0 2px 15px #335c67 !important;
 }
 
 @media all and (max-width: 450px) {

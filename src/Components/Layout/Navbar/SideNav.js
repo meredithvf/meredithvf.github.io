@@ -11,7 +11,7 @@ function SideNav() {
           <ScrollTo to="home" spy={true} smooth={true} duration={1000}>
             <span className="nav__counter">01</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Home
+              home
             </h3>
           </ScrollTo>
         </li>
@@ -20,7 +20,7 @@ function SideNav() {
           <ScrollTo to="about" spy={true} smooth={true} duration={1000}>
             <span className="nav__counter">02</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              About
+              about
             </h3>
           </ScrollTo>
         </li>
@@ -32,18 +32,7 @@ function SideNav() {
           <ScrollTo to="skills" spy={true} smooth={true} duration={1000}>
             <span className="nav__counter">03</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Skills
-            </h3>
-          </ScrollTo>
-        </li>
-        <li
-          role="presentation"
-          className={current === "github" ? "active" : ""}
-        >
-          <ScrollTo to="openSource" spy={true} smooth={true} duration={1000}>
-            <span className="nav__counter">04</span>
-            <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Open Source
+              skills
             </h3>
           </ScrollTo>
         </li>
@@ -52,9 +41,9 @@ function SideNav() {
           className={current === "projects" ? "active" : ""}
         >
           <ScrollTo to="projects" spy={true} smooth={true} duration={1000}>
-            <span className="nav__counter">05</span>
+            <span className="nav__counter">04</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Projects
+              projects
             </h3>
           </ScrollTo>
         </li>
@@ -64,9 +53,9 @@ function SideNav() {
           className={current === "experiences" ? "active" : ""}
         >
           <ScrollTo to="experiences" spy={true} smooth={true} duration={1000}>
-            <span className="nav__counter">06</span>
+            <span className="nav__counter">05</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Experiences
+              experiences
             </h3>
           </ScrollTo>
         </li>
@@ -75,9 +64,9 @@ function SideNav() {
           className={current === "contact" ? "active" : ""}
         >
           <ScrollTo to="contact" spy={true} smooth={true} duration={1000}>
-            <span className="nav__counter">07</span>
+            <span className="nav__counter">06</span>
             <h3 className="nav__title nav__title--stroke nav__title--shadow">
-              Contact
+              contact
             </h3>
           </ScrollTo>
         </li>

@@ -44,14 +44,14 @@ function About() {
                           <p className="line">
                             {" "}
                             {aboutSection.admin}:
-                            <span style={{ color: "#7f5af0" }}>~</span>$
+                            <span style={{ color: "#eac772" }}>~</span>$
                             {aboutSection.firstCommand}
                           </p>
                           <Typist.Delay ms={1000} />
                           <p className="line">
                             {" "}
                             {aboutSection.admin}:
-                            <span style={{ color: "#7f5af0" }}>~</span>$
+                            <span style={{ color: "#eac772" }}>~</span>$
                             {aboutSection.secondCommand}
                           </p>
                           <br />
@@ -59,7 +59,7 @@ function About() {
                           <span>
                             {" "}
                             {aboutSection.admin}:
-                            <span style={{ color: "#7f5af0" }}>~</span>${" "}
+                            <span style={{ color: "#eac772" }}>~</span>${" "}
                           </span>
                         </Typist>
                       </h2>
